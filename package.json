@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  // engines will tell heroku what node -v to use
+  "engines": "tells heroku what versions to use",
   "engines": {
     "node": "8.1.1",
     "npm": "5.0.3"
