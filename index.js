@@ -3,7 +3,10 @@ const app = express(); //generates a new, running express app
 
 //prints the object upon visiting localhost:5000/
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({
+    hi: 'there',
+    we: 'are hosted!'
+  });
 });
 
 //prints the object upon visiting localhost:5000/greeting
